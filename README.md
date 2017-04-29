@@ -1,6 +1,6 @@
-#This is my tools and demo in Redis
+# This is my tools and demo in Redis
 
-##First tool --> redis_cluster_without_mind.sh
+## First tool --> redis_cluster_without_mind.sh
 A simple shell script about start redis-cluster quickly.
 第一个小工具，无脑一键配置redis-cluster 
 ### How to use
