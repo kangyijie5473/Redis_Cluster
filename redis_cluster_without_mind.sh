@@ -50,16 +50,19 @@ mkdir $port1 $port2 $port3
 
 cp ../redis.conf $port1
 cd $port1 
+sed -i "s/# cluster-config-file nodes-6379.conf/cluster-config-file nodes-6379.conf/g" `grep "# cluster-config-file nodes-6379.conf" -rl .`
 sed -i "s/6379/$port1/g" `grep 6379 -rl .`
 cd ..
 
 cp ../redis.conf $port2
 cd $port2 
+sed -i "s/# cluster-config-file nodes-6379.conf/cluster-config-file nodes-6379.conf/g" `grep "# cluster-config-file nodes-6379.conf" -rl .`
 sed -i "s/6379/$port2/g" `grep 6379 -rl .`
 cd ..
 
 cp ../redis.conf $port3
 cd $port3 
+sed -i "s/# cluster-config-file nodes-6379.conf/cluster-config-file nodes-6379.conf/g" `grep "# cluster-config-file nodes-6379.conf" -rl .`
 sed -i "s/6379/$port3/g" `grep 6379 -rl .`
 cd ..
 
