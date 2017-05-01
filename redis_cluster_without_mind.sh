@@ -76,3 +76,5 @@ sed -i "s/bind 127.0.0.1/bind $1/g" `grep "bind 127.0.0.1" -rl .`
 redis-server $port1/redis.conf
 redis-server $port2/redis.conf
 redis-server $port3/redis.conf
+
+#redis-trib.rb create --replicas 1 $1:$port1 $1:$port2 $1:$port3 $3:$port4 $3:$port5 $3:$port6 
