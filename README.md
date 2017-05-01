@@ -1,4 +1,4 @@
-# This is my tools and demo in Redis
+## This is my tools and demo in Redis
 
 ## First tool --> redis_cluster_without_mind.sh
 A simple shell script about start redis-cluster quickly.
@@ -15,5 +15,7 @@ default slave ports are 7003 7004 7005
  $ chmod u+x redis_cluster_without_mind.sh
  $./redis_cluster_without_mind.sh 192.168.30.109 slave
 ```
+## First demo with Python
 
+A demo about operate redis-cluster using redis-py-cluster
 
