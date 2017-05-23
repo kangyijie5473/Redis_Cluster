@@ -17,5 +17,9 @@ default slave ports are 7003 7004 7005
 ```
 ## First demo with Python
 
-A demo about operate redis-cluster using redis-py-cluster
+A demo about operate redis-cluster using redis-py-cluster  
+
+## Second demo with Python --> auto-recovery.py   
+A daemon using "grep" "ps" to judge node's state.  
+If node is down , make it recovery automatically. 
 
